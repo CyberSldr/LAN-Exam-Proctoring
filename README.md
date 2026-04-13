@@ -23,5 +23,5 @@ A real-time, lightweight proctoring solution designed for local area networks (L
    git clone [https://github.com/CyberSldr/LAN-Exam-Proctoring.git](https://github.com/CyberSldr/LAN-Exam-Proctoring.git)
    cd LAN-Exam-Proctoring
    pip install -r requirements.txt
-   python3 Instr_dashboard.py # Run on the instructor PC
-   python3 Stu_client.py # Run on the students/clients PC
+   cd Instrucor && python3 Instr_dashboard.py # Run on the instructor PC
+   cd Student && python3 Stu_client.py # Run on the students/clients PC
