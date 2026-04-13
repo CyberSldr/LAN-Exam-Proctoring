@@ -16,8 +16,12 @@ A real-time, lightweight proctoring solution designed for local area networks (L
 - Python 3.10 or higher
 - All devices must be on the same local network (LAN)
 
+
 ### Installation
 1. **Clone the repository:**
    ```bash
    git clone [https://github.com/CyberSldr/LAN-Exam-Proctoring.git](https://github.com/CyberSldr/LAN-Exam-Proctoring.git)
    cd LAN-Exam-Proctoring
+   pip install -r requirements.txt
+   python3 Instr_dashboard.py # Run on the instructor PC
+   python3 Stu_client.py # Run on the students/clients PC
